@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply font-sans; /* Leverages Tailwind's `font-sans` utility */
+
+    font-family: 'Inter', sans-serif !important;
+}
